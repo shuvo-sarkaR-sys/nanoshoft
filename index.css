@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-section{
+  height: 80vh;
+  width: 100%;
+  background-image: url('./assets/banner-back.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.hero-section img{
+  margin: auto;
+}
