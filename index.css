@@ -174,8 +174,13 @@ responsive mobile design */
   font-size: 15px !important;
 }
 .box-3{
-  padding: 40px 40px 0px 0px !important;
-  background-position:inherit !important;
+  padding: 20px 40px 0px 0px !important;
+  /* background-position:inherit !important; */
+  background-size: cover !important;
+  background-repeat: repeat-y !important;
+  background-position: -100px 0px !important;
+  height: 700px !important;
+  /* height: 600px !important; */
    
 }
 
@@ -201,7 +206,7 @@ responsive mobile design */
  height: 400px !important;
 }
 .box-4 h1 {
-  font-size: 22px !important;
+  font-size: 20px !important;
 }
 .box-4 p {
   font-size: 14px !important;
