@@ -91,6 +91,31 @@ body{
   
    
 }
+/* responsive tablet design */
+@media (min-width: 768px) and (max-width: 1024px){
+   .banner-monitor{
+    bottom: 0px !important;
+     top: 200px;
+    width: 98%;
+  }
+  .hero-section{
+    height: 60vh;
+    
+  }
+  .cafe-count{
+    margin: 40px 45px 40px 45px;
+    padding: 40px;
+  }
+   .explore-section{
+    padding: 40px 45px 40px 45px;
+  }
+  .service-section{
+     padding: 40px 45px 40px 45px !important;
+  }
+  .footer{
+    height: 50vh !important;
+  }
+} 
 /* 
 responsive mobile design */
 @media (max-width: 768px) {
@@ -177,7 +202,9 @@ responsive mobile design */
   margin-top: 50px !important;
 }
 }
-
+.sms-cost{
+  color: red;
+}
 .box-1{
   background-image: url('./assets/epos-back.png');
    
@@ -368,8 +395,16 @@ responsive mobile design */
 }
 .client-hero-portal{
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-color: #2d2767;
   display: flex;
-  padding: 100px 100px 0px 100px;
+  gap: 200px;
+  flex-wrap: wrap;
+  padding: 100px 250px 0px 250px;
+}
+.client-hero-portal div {
+  width: 40%;
+}
+.client-hero-portal div img{
+  width: 80%;
 }
