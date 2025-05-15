@@ -42,6 +42,9 @@
       }
     });
   }, { threshold: 0.6 });
- observer1.observe(logo)
+ 
+if (logo instanceof Element) {
+  observer1.observe(logo);
+}
     texts.forEach(el=> observer1.observe(el))
    text.forEach(el => observer1.observe(el))
