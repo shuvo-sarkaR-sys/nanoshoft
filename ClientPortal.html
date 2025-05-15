@@ -10,26 +10,39 @@
 
 <body>
     <section class="client-hero-portal">
-        <div>
-            <img src="./assets/banner-logo.png" alt="">
+        <div class="client-portal-logo">
+            <a href="/"><img src="./assets/banner-logo.png" alt=""></a>
+            
             <p>Login to your Account</p>
             <h4>See what is going on with your business</h4>
         </div>
-        <div>
+        <div class="login-form">
             <form action="submit">
-                <input type="text" placeholder="Login id">
-                <input type="password" name="" id="">
-                <div>
-                    <label for="chackbox"></label>
-                    <input type="checkbox" name="chackbox" id="">
-                    <p>Forgot password?</p>
+                <input class="input-box" type="text" required placeholder="Login id">
+                 
+                <input class="input-box-1" type="password" required placeholder="Password" name="" id="">
+                <div class="forgot-pass" >
+                  <span> 
+                    <input type="checkbox" name="chackbox" id=""> 
+                    <label for="chackbox">Keep me login</label></span>
+                    <a href="#"><p>Forgot password?</p></a>
                 </div>
-                <button>Log in</button>
-                <p>Change password?</p>
+                <button class="login-button">Log in</button>
+                <a href="#"><p class="change-pass">Change password?</p></a>
             </form>
-            <hr>
-            <p>If you forgot your password or you want to reset id then please contact <a
+            
+           
+            <p class="text-details"> <hr> <br>If you forgot your password or you want to reset id then please contact <a
                     href="">Office@nanosoft.co.uk</a>, we will email you new password ASAP.</p>
+        </div>
+    </section>
+    <section>
+        <div class="box-4">
+            <h1 class="fade-in-right">Send <strong class="promo">promotional <br> sms</strong> directly from <br>your
+                <strong class="epos">EPOS to <br>customers mobile</strong></h1>
+            <br>
+            <p class="fade-in-right"><strong class="sms-cost">£0.06</strong> per SMS (Inc. Vat)</p>
+
         </div>
     </section>
     <script src="index.js"></script>
