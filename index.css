@@ -416,7 +416,7 @@ responsive mobile design */
   width: 80%;
 }
 .login-form{
-  background-color: white;
+  background-color: #e8eaf6;
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
    padding: 100px 50px 0px 50px;
@@ -453,6 +453,7 @@ font-size: 16px;
   border: none;
   font-size: 20px;
   font-weight: 600;
+  border-radius: 2px;
 }
 a{
   text-decoration: none;
@@ -565,7 +566,7 @@ margin-top: 80px;
   flex-wrap: wrap-reverse;
   padding: 70px 270px 0px 0px;
   justify-content: space-between;
-   
+   background-color: #e8eaf6;
   margin-top: 0px;
 }
 .promotional-section div {
