@@ -108,7 +108,7 @@ html, body{
   
    
 }
-/* responsive tablet design */
+/* responsive tablet design  */
 @media (min-width: 768px) and (max-width: 1024px){
    .banner-monitor{
     bottom: 0px !important;
