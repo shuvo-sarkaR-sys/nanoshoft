@@ -234,9 +234,10 @@ responsive mobile design */
   background-color: #cde7f6 !important;
   /* background-position:inherit !important; */
   background-image: url('./assets/bg3.png') !important;
-  background-size: auto 65% !important;
+  background-size: auto 63% !important;
   
-  background-position: bottom  !important;
+ background-position: -5px bottom !important;
+
   height: 400px !important;
   margin-top: 15px !important;
   /* height: 600px !important; */
@@ -248,6 +249,7 @@ responsive mobile design */
 }
 .box-3 p {
   font-size: 15px !important;
+  margin-top: -10px !important;
   font-weight: 400 !important;
 }
 .service-section{
