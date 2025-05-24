@@ -620,7 +620,7 @@ margin-top: 80px;
    }
     
    .forgot-pass{
-    width: 90% !important;
+    width: 85% !important;
    }
    .text-details{
     margin-top: 0px !important;
@@ -675,7 +675,7 @@ margin-top: 80px;
     color: rgb(255, 255, 255) !important;
      font-size: 15px !important;
    }
-   .box-6 strong {
+   .box-6 strong{
     color: yellow !important;
     
    }
@@ -737,6 +737,7 @@ margin-top: 80px;
 }
 .box-6 .red {
    color: red;
+   font-weight: 800;
 }
 .box-6 span{
   color: yellow;
