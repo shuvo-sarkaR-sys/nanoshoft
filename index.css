@@ -196,7 +196,7 @@ responsive mobile design */
 .box-1{
   padding: 20px !important;
   height: 400px !important;
-  background-image: url('./assets/bg2.png') !important;
+  background-image: url('./assets/epos-back-mob.png') !important;
    background-position: bottom !important;
   background-size: contain !important;
   background-position-x: center;
@@ -213,7 +213,7 @@ responsive mobile design */
 .box-2{
   padding: 35px 20px !important;
   margin-top: 15px !important;
-  background-image: url('./assets/bg1.png') !important;
+  background-image: url('./assets/website-mob.png') !important;
   height: 400px !important;
    background-position: bottom !important;
   background-size:auto 80% !important;
@@ -233,7 +233,7 @@ responsive mobile design */
   padding: 35px 20px 0px 0px !important;
   background-color: #cde7f6 !important;
   /* background-position:inherit !important; */
-  background-image: url('./assets/bg3.png') !important;
+  background-image: url('./assets/accounts-mb.png') !important;
   background-size: auto 63% !important;
   
  background-position: -5px bottom !important;
@@ -296,7 +296,7 @@ responsive mobile design */
   color: red;
 }
 .box-1{
-  background-image: url('./assets/epos-back.png');
+  background-image: url('./assets/epos-back2.png');
    
   background-size: cover;
   background-repeat: no-repeat;
@@ -331,7 +331,7 @@ responsive mobile design */
   color: #c5e4f6;
 }
 .box-2{
-   background-image: url('./assets/website-back.png');
+   background-image: url('./assets/website-back2.png');
    
   background-size: cover;
   background-repeat: no-repeat;
@@ -361,7 +361,7 @@ responsive mobile design */
   color: rgb(0, 17, 255);
 }
 .box-3{
-  background-image: url('./assets/accounts-back.png');
+  background-image: url('./assets/accounts-back2.png');
    
   background-size: cover;
   background-repeat: no-repeat;
@@ -433,25 +433,19 @@ responsive mobile design */
   color: white;
 }
 .box-4{
-  background-image: url('./assets/pro-sms-back.png');
+  
    
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
   width: 100%;
   border-radius: 20px;
   margin-top: 80px;
-  text-align: right;
-  padding: 100px 100px 0px 0px;
+  
+ 
 }
-.box-4 h1{
-  font-weight: 400;
-  font-size: 40px;
+.box-4 img{
+  border-radius: 30px;
+  width: 100%;
 }
-.promo{
-  color: blue;
-}
+ 
 .epos{
   color:  #2d2767;
 }
@@ -564,7 +558,7 @@ margin-top: 80px;
   /* margin-bottom: 140px; */
 }
 .text-details{
-  margin-top: 130px;
+  margin-top: 0px;
   color: rgb(52, 50, 50);
 }
 @media (min-width: 768px) and (max-width: 1024px){
@@ -623,9 +617,12 @@ margin-top: 80px;
     width: 85% !important;
    }
    .text-details{
-    margin-top: 0px !important;
+    margin-top: 10px !important;
     font-size: 10px !important;
     text-align: center !important;
+   }
+   .text-details span {
+    color: #4c3afe;
    }
    .text-details br {
     display: none !important;

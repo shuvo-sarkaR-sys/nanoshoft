@@ -21,7 +21,7 @@
   const animateCounter = (el) => {
     const target = +el.getAttribute('data-target');
     let count = 0;
-    const speed = 200; // smaller is faster
+    const speed = 100; // smaller is faster
     const increment = target / speed;
 
     const update = () => {
